@@ -1,0 +1,38 @@
+﻿<Filter Name="" DescriptionId="">
+	<Conditions>
+		//////////////////// MUSS NOCH ÜBERARBEITET WERDEN! //////////////////////////
+			<Condition Value="" MustBe="" />
+			<Condition Value="" MayBe="" />
+			<Condition Value="" MustBe="" />
+			<Condition Value="" MustBe="" />
+			<Colorspaces>
+				<ColorSpace Type="">
+			</Colorspaces>
+		//////////////////// MUSS NOCH ÜBERARBEITET WERDEN! //////////////////////////
+	</Conditions>
+	<References>
+		<Reference Type="Internal/XML/NetDLL/CDLL" Name="" Path="" />
+	</References>
+	<Parameters>
+		<Parameter Name="" Type="" DescrptionId="" />
+	</Parameters>
+	<Localization>
+		<Translation Language="DEU">
+			<Description Id="">
+				Text text text.
+			</Description>
+		</Translation>
+	</Localization>
+	<ProcessingSteps>
+		// Steps mit der gleichen Order sind parallelisierbar
+		<Step Name="">
+			<PreSteps>
+				// Steps, die vor beenden dieses Steps beendet sein müssen
+				<PreStep Name="" />
+			</PreSteps>
+			//////////////////// MUSS NOCH ÜBERARBEITET WERDEN! //////////////////////////
+				<Action Type=""  />
+			//////////////////// MUSS NOCH ÜBERARBEITET WERDEN! //////////////////////////
+		</Step>
+	</ProcessingSteps>
+</Filter>

@@ -1,0 +1,54 @@
+﻿<Window x:Class="SVEGUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SVEGUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="635.961" Width="901.27" WindowState="Maximized">
+	<Grid>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*" />
+			<ColumnDefinition Width="10" />
+			<ColumnDefinition Width="400" />
+		</Grid.ColumnDefinitions>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto" />
+			<RowDefinition Height="10" />
+			<RowDefinition />
+			<RowDefinition Height="10" />
+			<RowDefinition />
+			<RowDefinition Height="10" />
+			<RowDefinition Height="Auto" />
+		</Grid.RowDefinitions>
+		<Menu x:Name="menu" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.ColumnSpan="3" >
+			<MenuItem Header="Datei" >
+				<MenuItem Header="Neu" />
+				<MenuItem Header="Öffnen" />
+				<MenuItem Header="Speichern" />
+				<MenuItem Header="Speichern unter" />
+				<MenuItem Header="Exportieren" />
+				<MenuItem Header="Projekt schließen" />
+				<MenuItem Header="Programm beenden" />
+			</MenuItem>
+			<MenuItem Header="Bearbeiten"/>
+			<MenuItem Header="Ansicht"/>
+		</Menu>
+		<TabControl x:Name="tabControl" HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="2" VerticalAlignment="Stretch" >
+			<TabItem Header="Globale Quellen">
+				<Grid Background="#FFE5E5E5"/>
+			</TabItem>
+			<TabItem Header="Projektquellen">
+				<Grid Background="#FFE5E5E5"/>
+			</TabItem>
+			<TabItem Header="Filter">
+				<Grid Background="#FFE5E5E5"/>
+			</TabItem>
+		</TabControl>
+		<StatusBar HorizontalAlignment="Stretch" Margin="0,0,0,0" Grid.Row="6" VerticalAlignment="Stretch" Grid.ColumnSpan="3" >
+			<MenuItem Header="Teststatus"/>
+		</StatusBar>
+		<GridSplitter HorizontalAlignment="Stretch" Margin="0" Grid.Row="3" VerticalAlignment="Stretch" Grid.ColumnSpan="3" />
+		<GridSplitter HorizontalAlignment="Stretch" Margin="0" Grid.Row="1" Grid.RowSpan="2" Grid.Column="1" VerticalAlignment="Stretch" />
+	</Grid>
+</Window>
