@@ -7,8 +7,8 @@
     <ProjectGuid>{3812A396-79E9-4151-A3BB-CBB1A7EA0620}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SVE</RootNamespace>
-    <AssemblyName>SVE</AssemblyName>
+    <RootNamespace>SVE.Editor</RootNamespace>
+    <AssemblyName>SVE.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

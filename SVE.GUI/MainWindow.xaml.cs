@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace SVEGUI
+namespace SVE.GUI
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
